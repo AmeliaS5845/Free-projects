@@ -1,0 +1,280 @@
+body, html {
+  height: 100%;
+}
+.parallax {
+  /* The image used */
+  background-image: url("https://www.careercast.com/sites/default/files/2018-02/application-developer.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  color:#342B09;
+  font-size: 50px;
+}
+p{
+  height: 400px;  
+  color: #342B09;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+
+}
+
+li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #293C60;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:#BC9859;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #342B09; 
+  border: none;
+  color:#FCCB1A;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  float:right;
+}
+.button2 {
+  background-color:#342B09;
+  border: none;
+  color:#FCCB1A;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: left;
+}
+line{
+  align: center
+}
+
+
+
+#job-1{
+  height: 100px;
+  width: 100px;
+  background-color: #293C60; 
+  Color: #FCCB1A;
+  margin: 0px;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#job-2{
+  height: 100px;
+  width: 100px;
+ background-color: #293C60; 
+  Color: #FCCB1A;
+  margin: 0;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#job-3{
+  height: 100px;
+  width: 100px;
+  background-color: #293C60; 
+  Color: #FCCB1A;
+  margin: 0px;
+  position: absolute;
+  top: 80%;
+  right: 5%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-decoration: inline;
+}
+
+a{text-decoration: none;
+
+color: #FCCB1A}
+
+#job-1:hover{
+  background-color:#813F1C;
+  Color: #FCCB1A;
+}
+#job-2:hover{
+  background-color:#813F1C;
+  Color: #FCCB1A;
+}
+#job-3:hover{
+  background-color:#813F1C;
+  Color: #FCCB1A;
+}
+
+.active1{
+  background-color: rgb(92, 119, 170)
+}
+.active2{
+  background-color: rgb(92, 119, 170)
+}
+.active3{
+  background-color: rgb(92, 119, 170)
+}
+.active4{
+  background-color: rgb(92, 119, 170)
+}
+
+
+.img{
+width: 100%;
+height: auto;
+
+}
+
+body {
+background-image: url('https://www.careercast.com/sites/default/files/2018-02/application-developer.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:#F4E691;
+}
+
+ /* 3 col fluid layout CSS Document */
+/* mac hide\\*/
+html, body {
+ height:100%;
+ padding:0;
+ margin:0;
+}
+/* end hide*/
+body {
+ background:#F4E691;
+ color: #000;
+}
+#outer {
+ margin:0 20%;
+ background:#fff;
+ border-left:1px solid #000;
+ border-right:1px solid #000;
+ color: #000000;
+ position:relative;
+ min-height:100%;
+ z-index:2;
+}
+* html #outer {
+ height:100%;
+} /*IE treats height as min-height anyway*/
+#inner {
+ width:100%;/*needed to fix ies bad handling of widths with percentages*/
+}
+#header {
+ background: url(images/ukheader.gif) left no-repeat;
+ border-top:1px solid #cccccc;
+ border-bottom:1px solid #cccccc;
+ color: #000000;
+ margin-left:-34%;
+ margin-right:-33.6%;
+ position:relative;
+ min-height:150px;
+}
+* html #header {
+ height:1px;
+}
+#left {
+ position:relative;/*ie needs this to show float */
+ width:32.5%;
+ float:left;
+ margin-left:-32.5%;/*must be same as width */
+}
+#right {
+ position:relative;/*ie needs this to show float */
+ width:32%;
+ float:right;
+ margin-right:-32%;/*must be same as width */
+ margin-left:1px;
+}
+#footer {
+ width:100%;
+ clear:both;
+ height:50px;
+ border-top:1px solid #000;
+ border-bottom:1px solid #000;
+ background-color: #406700;
+ color: #ffffff;
+ text-align:center;
+ margin-top:-52px;/* drag footer back into page*/
+ position:relative;
+ z-index:3;
+}
+* html #footer {/*only ie gets this style*/
+ \\height:52px;/* for ie5 */
+ he\\ight:50px;/* for ie6 */
+}
+#clearfooter {
+ clear:both;
+ height:52px;
+}/*needed to make room for footer*/
+h1, p {
+ margin:0 0 .5em;
+ padding:0 10px;
+}
+/* mac hide\\*/
+* html #centrecontent {
+ height:1%;
+}/* combat IE's 3 pixel jog */
+/* end hide*/
+ 
+/* safari and opera initial 100% height fix */
+html >body #minHeight {
+ float:left;
+ width:0px;
+ height:100%;
+ margin-bottom:-52px;
+}
